@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 findviewbyid는 ID로 부터 대응되는 뷰객체를 찾는 메소드이다. findViewById를 사용할 때 ID가 지정하는 뷰의 타입과 캐스팅 타입과 일치해야 한다
 요즘에는 ViewBinding을 써 코드를 간략하게 짤 수 있다.
 
-### asd
+### 버튼 클릭시 ResultActivity
 
 ```kotlin
   resultButton.setOnClickListener{
