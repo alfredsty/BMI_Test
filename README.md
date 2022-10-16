@@ -72,7 +72,7 @@ findviewbyid는 ID로 부터 대응되는 뷰객체를 찾는 메소드이다. f
         }
 
 ```
-
+resultButton 클릭 시 만약 데이터가 하나라도 null값일 경우 Toast메세지를 띄우고 모두 입력했을 경우 Intent로 ResultActivity로 값을 넘긴다.
 
 
 ## ResultActivity
@@ -108,6 +108,8 @@ class ResultActivity : AppCompatActivity() {
 }
 
 ```
+
+intent로 넘긴 값들을 변수로 받아주고 bmi 구하는 공식인 BMI지수= 몸무게(kg) ÷ (신장(m) × 신장(m))을 하여 구하고 지수에 따라 비율을 나타낸다
 
 
 
