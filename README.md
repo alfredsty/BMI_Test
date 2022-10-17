@@ -111,6 +111,11 @@ class ResultActivity : AppCompatActivity() {
 
 intent로 넘긴 값들을 변수로 받아주고 bmi 구하는 공식인 BMI지수= 몸무게(kg) ÷ (신장(m) × 신장(m))을 하여 구하고 지수에 따라 비율을 나타낸다
 
+## Skill
 
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF.svg?&style=for-the-badge&logo=Kotlin&logocolor=white)
 
+## Tools
+
+![Android Studio](https://img.shields.io/badge/Android%20Studio-008000.svg?&style=for-the-badge&logo=Android%20Studio&logocolor=white)
 
